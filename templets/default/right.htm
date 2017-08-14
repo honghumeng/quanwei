@@ -1,0 +1,139 @@
+ <div class="g1 sidebar">
+       <div class="sidebar-model sidebar-model-timeline">
+    <div class="model-title">
+    	<h3>实时更新</h3>
+    </div>
+    <div class="model-content">
+        <div class="model-content-bar">
+            <a class="refresh-handle" href="javascript:void(0)">
+            	5分钟刷新
+            </a>
+        </div>
+		<div class="list-scroll mCustomScrollbar _mCS_1 mCS-autoHide" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
+		<ul class="list">
+			{dede:arclist titlelen=55 orderby ='pubdate' limit='0,10' }
+            <li>
+                <i class="dot"></i>
+            	<a href="[field:arcurl/]" target="_blank"><span class="title">[field:title/]</span></a>
+            	<div class="new_share">
+					<div class="share_desc share_time">
+						<span>[field:pubdate function="tranTime(@me)" /]</span>
+					</div>
+					<div class="share_desc share_way">
+						<span>分享至</span>
+						<div class="weixin weixin_top">
+						<div class="code_top type_one">
+							<div class="code_img">
+								<img src="img/code.png">
+							</div>
+							<div class="code_note">
+								<p>打开微信扫一扫</p>
+							</div>
+						</div>
+					</div>
+						<div class="weibo"></div>
+					</div>
+				</div>
+            </li>
+            {/dede:arclist}
+            
+        </ul>
+		</div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; display: block; height: 112px; max-height: 356px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+		<div class="more_new">
+			<a href="#" class="cover">浏览更多</a>
+		</div>
+    </div>
+</div>
+	    <div class="ad">
+	    	<img src="/static/img/1501465907964.jpg" class="cover">
+	    	<div class="ad_desc">
+	    		<p>一些描述</p>
+	    	</div>
+	    </div>
+
+
+          <div class="sidebar-model sidebar-ad">
+    <div id="gg-right-1"></div>
+<script>
+(function() {
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2436327',
+        container: 'gg-right-1',
+        size: '360,100',
+        display: 'inlay-fix'
+    });
+})();
+</script><script charset="utf-8" src="./static/img/rcrm"></script>
+</div>
+
+        <div class="sidebar-model sidebar-model-ranklist">
+	<div class="model-title">
+		<h3>新闻排行榜</h3></div>
+	<ul class="list">
+			{dede:arclist titlelen=55 orderby ='pubdate' limit='0,10' }
+				<li>
+					<a href="[field:arcurl/]" target="_blank" title="[field:title/]">
+						<i class="num num-1">1</i>
+						[field:title/]
+					</a>
+					<div class="new_share">
+						<div class="share_desc share_time">
+							<span>[field:pubdate function="tranTime(@me)" /]</span>
+						</div>
+						<div class="share_desc share_way">
+							<span>分享至</span>
+							<div class="weixin">
+								<div class="code_desc">
+									<div class="code_img">
+										<img src="img/code.png">
+									</div>
+									<div class="code_note">
+										<p>打开微信扫一扫</p>
+									</div>
+								</div>
+							</div>
+							<div class="weibo"></div>
+						</div>
+					</div>
+				</li>
+			{/dede:arclist}
+			</ul>
+</div>
+
+        <div class="sidebar-model sidebar-ad">
+<div id="gg-right-2"></div>
+<script>
+(function() {
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2436328',
+        container: 'gg-right-2',
+        size: '360,100',
+        display: 'inlay-fix'
+    });
+})();
+</script><script charset="utf-8" src="/static/img/rcrm(1)"></script>
+</div>
+
+        <div class="sidebar-model sidebar-model-tags">
+	<div class="model-title">
+		<h3>热门话题</h3>
+	</div>
+	<div class="model-content clearfix">
+			{dede:tag row='32' getall='1' sort='month'}
+				<a class="s2" href="[field:link/]" target="_blank"><span>[field:tag /]</span></a>
+			{/dede:tag}
+			</div>
+</div>
+
+        <div class="sidebar-model sidebar-model-qr">
+    <div class="model-title">
+    	<h3>关注权微</h3>
+    </div>
+    <div class="model-content">
+        <img src="/static/img/qr.png" alt="新三板投资人关注我们">
+        <p>20万新三板投资人已经微信扫码关注 </p>
+    </div>
+</div>
+    </div>
+</div>
+

@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("field","",430,449);
+$z[0][4]=array();
+$z[0][4]['name']="title";
+$z[1]=Array("global","",450,476);
+$z[1][4]=array();
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",517,546);
+$z[2][4]=array();
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",586,644);
+$z[3][4]=array();
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("include","",1563,1598);
+$z[4][4]=array();
+$z[4][4]['filename']="head.htm";
+$z[5]=Array("field","",1770,1790);
+$z[5][4]=array();
+$z[5][4]['name']="title";
+$z[6]=Array("field","",1857,1915);
+$z[6][4]=array();
+$z[6][4]['name']="description";
+$z[6][4]['function']="html2text(@me)";
+$z[7]=Array("list","\r\n      <article class=\"excerpt\"> <a class=\"focus\" href=\"[field:arcurl/]\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\"/></a>\r\n        <header><a href=\"[field:typeurl/]\" class=\"cat\" title=\"[field:typename/]\">[field:typename/]</a>\r\n          <h2><a href=\"[field:arcurl/]\" title=\"[field:title/]\">[field:title/]</a></h2>\r\n        </header>\r\n        <p class=\"meta\">\r\n          <time>[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</time>\r\n          <span class=\"pv\">阅读([field:click/])</span> </p>\r\n        <p class=\"note pc\"> <a href=\"[field:arcurl/]\" title=\"[field:title/]\">[field:description function='cn_substr(@me,200)'/]...</a></p>\r\n      </article>\r\n      ",1946,2648);
+$z[7][4]=array();
+$z[7][4]['pagesize']="10";
+$z[8]=Array("pagelist","",2706,2784);
+$z[8][4]=array();
+$z[8][4]['listitem']="info,index,end,pre,next,pageno,option";
+$z[8][4]['listsize']="5";
+$z[9]=Array("tag","\r\n          <li><a href=\"[field:link/]\" title=\"[field:tag /]\">[field:tag /]</a></li>\r\n          ",3196,3333);
+$z[9][4]=array();
+$z[9][4]['row']="60";
+$z[9][4]['sort']="new";
+$z[10]=Array("global","",3546,3572);
+$z[10][4]=array();
+$z[10][4]['name']="cfg_jieshao";
+$z[11]=Array("arclist","\r\n          <li><a href=\"[field:arcurl/]\">[field:title/]</a></li>\r\n          ",3751,3877);
+$z[11][4]=array();
+$z[11][4]['titlelen']="42";
+$z[11][4]['row']="10";
+$z[12]=Array("include","",3942,3979);
+$z[12][4]=array();
+$z[12][4]['filename']="footer.htm";
+
+?>

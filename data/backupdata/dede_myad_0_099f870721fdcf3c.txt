@@ -1,0 +1,2 @@
+INSERT INTO `dede_myad` VALUES('1','0','0','toppic','全站头部广告位（1180PX*123PX）','0','1498355515','1500947515','<img src=\"/uploads/allimg/170625/1_0955133891.png\"/>','');
+INSERT INTO `dede_myad` VALUES('2','0','0','footepic','全站底部广告位（1180PX*123PX）','0','1498357801','1500949801','<img src=\"/uploads/allimg/170625/1_0955133891.png\"/>','');
